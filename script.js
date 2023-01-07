@@ -16,7 +16,7 @@ function PrintDeveloperswithMap() {
 }
 
 function PrintDeveloperbyForEach() {
-   array.forEach(element => {
+   arr.forEach(element => {
     if(element.profession === "devloper"){
       console.log(element);
     }
@@ -26,13 +26,14 @@ function PrintDeveloperbyForEach() {
 
 function addData() {
  arr.push({id:4,name:"susan",age:"20",profession:"intern"});
+ console.log(arr);
 
 }
 
 function removeAdmin() {
   //Write your code here
- let RemoveAdmin = arr.filter((arr) => arr.profession!== "admin");
- console.log(RemoveAdmin);
+ let removeAdmin = arr.filter((arr) => arr.profession!== "admin");
+ console.log(removeAdmin);
 }
 
 let NewArray = [{id:5,name:"riya",age:"20",profession:"marketing manager"},{id:6, name:"lucy",age:"25", profession:"bank po"},{id:7, name:"indra", age:"35",profession:"pilot"}]
